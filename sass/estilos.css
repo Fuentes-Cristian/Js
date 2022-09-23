@@ -1,0 +1,68 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.cajaC {
+  width: 30%;
+  height: 600px;
+  border-radius: 7px;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cajaC .calculadora {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: oblique;
+  text-align: center;
+}
+.cajaC .cajaB {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.cajaC .cajaB .botones {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cajaC .cajaB .botones .buton {
+  width: 7em;
+  height: 2em;
+  margin: 1px;
+}
+.cajaC .cajaB .botones .buton2 {
+  width: 7em;
+  height: 2em;
+  margin: 2.7px;
+}
+.cajaC .cajaB .botones .buton3 {
+  width: 7em;
+  height: 2em;
+  margin: 2.7px;
+}
+.cajaC .cajaB .botones .buton__extras {
+  width: 7em;
+  height: 2em;
+  margin: 2.7px;
+}
+.cajaC .cajaB .botones .botones__123 {
+  display: flex;
+}
+.cajaC .cajaB .botones .botones__456 {
+  display: flex;
+}
+.cajaC .cajaB .botones .botones__789 {
+  display: flex;
+}
+.cajaC .cajaB .botones .botones__extras {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=estilos.css.map */
