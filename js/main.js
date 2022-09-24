@@ -9,17 +9,17 @@ let altura = "190";
 let concatenacion = nombre1 + " " + apellido + " " + altura;
 console.log(concatenacion);
 
+//condicionales if else 
 if (altura >= 190) {
     console.log("eres una persona alta");
 }else {
     console.log("eres una persona bajita");
 };
 
-
-
-
-for (i = 2000; i <=2022; i++){
+//ciclo for contador de años
+for (let i = 2000; i <=2022; i++){
     console.log("Contar años:" + i);
+    
 }
 
 /*
