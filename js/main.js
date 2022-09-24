@@ -4,10 +4,15 @@ let contraseña = prompt ("ingresa tu contraseña")
 
 let nombre1= "Eduardo";
 let apellido = "Rodriguez"
-let altura = "190";
 
-let concatenacion = nombre1 + " " + apellido + " " + altura;
+let concatenacion = nombre1 + " " + apellido;
 console.log(concatenacion);
+
+function datos(nombre1, apellido) {
+    console.log(concatenacion);
+}
+datos()
+
 
 //condicionales if else 
 if (altura >= 190) {
@@ -21,6 +26,8 @@ for (let i = 2000; i <=2022; i++){
     console.log("Contar años:" + i);
     
 }
+
+
 
 /*
 
